@@ -112,3 +112,34 @@ lista_de.insertar(c3)
 lista_de.imprimir()
 
 lista_de.eliminar(102)
+
+
+
+class cola:
+  def _init_(self):
+    self.cola = []
+  def encolar(self, cliete):
+    self.cola.append(cliente)
+  def devolver(self):
+    return len(self.cola)
+  def imprimir(self):
+    for n in self.cola:
+      print(n)
+  def desencolar(self):
+    if self.cola:
+      self.cola.pop(0)
+     
+    
+ class pila:
+  def _init_(self):
+    self.pila = []
+  def apilar(self, cliete):
+    self.pila.append(cliente)
+  def devolver(self):
+    return len(self.pila)
+  def imprimir(self):
+    for n in self.pila:
+      print(n)
+  def desapilar(self):
+    if self.pila:
+      self.pila.pop()
